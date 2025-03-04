@@ -1,12 +1,29 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>ShortDev.Microsoft.CorrelationVector</AssemblyName>
+	</PropertyGroup>
+	
+	<PropertyGroup Label="Nuget">
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/nearby-sharing/Microsoft.CorrelationVector</RepositoryUrl>
 		<PackageTags>CorrelationVector Codex Microsoft Monitoring</PackageTags>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<Version>1.0.0</Version>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<Version>2.0.0</Version>
 		<Copyright>© Microsoft Corporation. All rights reserved.</Copyright>
 		<Description>This package provides a reference C# implementation of the CorrelationVector protocol for tracing and correlation of events through a distributed system.</Description>
 	</PropertyGroup>
+
+	<ItemGroup Label="Nuget">
+		<Content Include="../../README.md">
+			<PackagePath>/</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="../../LICENSE">
+			<PackagePath>/</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+	</ItemGroup>
 </Project>
