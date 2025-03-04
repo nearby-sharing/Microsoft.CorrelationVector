@@ -1,12 +1,11 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
 
-namespace Microsoft.CorrelationVector
+namespace Microsoft.CorrelationVector;
+
+public enum CorrelationVectorVersion:int
 {
-    public enum CorrelationVectorVersion:int
-    {
-        V1 = 0,
-        V2 = 1,
-        V3 = 2,
-    }
+    V1 = 0,
+    V2 = 1,
+    V3 = 2,
 }

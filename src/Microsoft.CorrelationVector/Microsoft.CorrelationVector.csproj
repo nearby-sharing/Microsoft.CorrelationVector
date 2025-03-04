@@ -1,21 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>netstandard1.0</TargetFramework>
-    <Company>Microsoft</Company>
-    <Authors>Microsoft</Authors>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <PackageProjectUrl>https://github.com/Microsoft/CorrelationVector-CSharp</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/Microsoft/CorrelationVector-CSharp</RepositoryUrl>
-    <PackageTags>CorrelationVector Codex Microsoft Monitoring</PackageTags>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
-    <Version>1.0.0</Version>
-    <SignAssembly>false</SignAssembly>
-    <DelaySign>true</DelaySign>
-    <AssemblyOriginatorKeyFile></AssemblyOriginatorKeyFile>
-    <Copyright>© Microsoft Corporation. All rights reserved.</Copyright>
-    <Description>This package provides a reference C# implementation of the CorrelationVector protocol for tracing and correlation of events through a distributed system.</Description>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<RepositoryUrl>https://github.com/nearby-sharing/Microsoft.CorrelationVector</RepositoryUrl>
+		<PackageTags>CorrelationVector Codex Microsoft Monitoring</PackageTags>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Version>1.0.0</Version>
+		<Copyright>© Microsoft Corporation. All rights reserved.</Copyright>
+		<Description>This package provides a reference C# implementation of the CorrelationVector protocol for tracing and correlation of events through a distributed system.</Description>
+	</PropertyGroup>
 </Project>
